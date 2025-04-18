@@ -52,15 +52,15 @@ Open `Scraper.ipynb` file using either Method A or Method B.
 
 ####   🔹 Method B: Using the Jupyter Notebook Web Interface
 
-  1- Launch the notebook using this command:
+  I- Launch the notebook using this command:
 
 ```bash
 # Run from terminal
 jupyter notebook scraper.ipynb
 ```
-  2- Open the file `Scraper.ipynb` through the browser.
-  3- Select the correct environment kernel. See the <a href="EnvSetupGuide.pdf" target="_blank">setup-guide</a> to activate enviroment in Jupyter.
-  4- Run the script.
+  II- Open the file `Scraper.ipynb` through the browser.
+  III- Select the correct environment kernel. See the <a href="EnvSetupGuide.pdf" target="_blank">setup-guide</a> to activate enviroment in Jupyter.
+  IV- Run the script.
 
 This code scrape job listings from Naukri.com. And output `data_scientist_jobs.csv` will be created with raw job listings.
 
