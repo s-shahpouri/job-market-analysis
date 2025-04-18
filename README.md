@@ -51,7 +51,7 @@ Open `Scraper.ipynb` file using either Method A or Method B.
     III- In the Explorer (🗎 icon on the top left), open `Scraper.ipynb`.
 
     IV- Select the correct virtual environment. See the <a href="EnvSetupGuide.pdf" target="_blank">setup-guide</a> to activate the environment in VSCode.
-
+  
     V- Run the script.
 
 ####   🔹 Method B: Using the Jupyter Notebook Web Interface
