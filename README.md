@@ -22,10 +22,10 @@ Ensure you have Python 3.8+ installed.
 
 ---
 
-### 🥽 Step 1: Set up the Virtual Environment
+### Step 1: Set up the Virtual Environment
 You can set up your environment using **one of the following methods**:
 
-#### 🔸 Option A: Using `venv` (recommended)
+####   🔸 Option A: Using `venv` (recommended)
 
 ```bash
 python -m venv myenv
@@ -34,7 +34,7 @@ source myenv/bin/activate    # On Windows: myenv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-#### 🔹 Option B: Using conda
+####   🔹 Option B: Using conda
 
 ```bash
 conda create -n myenv python=3.8
@@ -43,10 +43,10 @@ pip install -r requirements.txt
 ```
 See the <a href="EnvSetupGuide.pdf" target="_blank">setup-guide</a> for further explenation.
 
-### 🌐 Step 2: Run the Scraper.ipynb
+### Step 2: Run the Scraper.ipynb
 Open "Scraper.ipynb" file using either Method A or Method B.
 
-#### 🔸 Method A: Using VSCode (recommended)
+####   🔸 Method A: Using VSCode (recommended)
 
 - Install [VSCode](https://code.visualstudio.com/download) and run VSCode.
 - Open the project folder, through File>Open Folder
@@ -54,11 +54,11 @@ Open "Scraper.ipynb" file using either Method A or Method B.
 - Select the environment. See the <a href="EnvSetupGuide.pdf" target="_blank">setup-guide</a> to activate the environment in VSCode.
 - Run the script.
 
-#### 🔹 Method B: Using the Jupyter Notebook Web Interface
+####   🔹 Method B: Using the Jupyter Notebook Web Interface
 
 - Run this command on the terminal.
 ```bash
-# Run from terminal or Jupyter
+# Run from terminal
 jupyter notebook scraper.ipynb
 ```
 - Open the project folder, through File>Open Folder
@@ -68,7 +68,7 @@ jupyter notebook scraper.ipynb
 
 This code scrape job listings from Naukri.com. And output "data_scientist_jobs.csv" will be created with raw job listings.
 
-### 🧹 Step 3: Clean the Data
+### Step 3: Clean the Data
 Open and run the Job_market_analysis.ipynb notebook. This step involves:
 
 - Removing duplicates
@@ -77,10 +77,8 @@ Open and run the Job_market_analysis.ipynb notebook. This step involves:
 
 - Formatting job roles and salary info
 
-💾 Output: Cleaned dataset ready for analysis.
-
-### 📊 Step 4: Perform EDA
-Continue in the same notebook:
+### Step 4: Perform EDA
+Continue in the same notebook to:
 
 - Visualize common job titles, skills, locations, and companies.
 
