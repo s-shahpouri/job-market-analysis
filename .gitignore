@@ -1,0 +1,21 @@
+# Ignore virtual environments
+venv/
+.env/
+.venv/
+sampleEnv/
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+# VS Code files (if using)
+.vscode/
+
+# macOS hidden files
+.DS_Store
+
+# Ignore log files
+*.log

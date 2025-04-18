@@ -1,0 +1,7 @@
+python.exe -m pip install --upgrade pip
+pip install ipykernel
+pip install notebook
+
+pip install selenium pandas matplotlib
+
+python -m ipykernel install --user --name=jobenv --display-name "jobenv"
