@@ -1,4 +1,4 @@
-# 🧠 Data Science Job Market Analysis (2020)
+# 🧠 Data Science Job Market Analysis
 
 ## 📌 Project Overview
 
@@ -12,52 +12,61 @@ It includes the following pipeline:
 ---
 
 ## Dependencies:
-* Python
-* matplotlib
-* pandas
-* selenium
+- `Python 3.8+`
+- `matplotlib`
+- `pandas`
+- `selenium`
 
 ## 🚀 Step-by-Step Instructions
 Ensure you have Python 3.8+ installed.
 
+---
 
 ### 🥽 Step 1: Set up the Virtual Environment
-#### Option A: Using venv (recommended)
+You can set up your environment using **one of the following methods**:
+
+#### 🔸 Option A: Using `venv` (recommended)
 
 ```bash
-python -m venv ds_env
-source ds_env/bin/activate    # On Windows: ds_env\Scripts\activate
+python -m venv myenv
+source myenv/bin/activate    # On Windows: myenv\Scripts\activate
 
 pip install -r requirements.txt
 ```
 
-#### Option B: Using conda
+#### 🔹 Option B: Using conda
 
 ```bash
-conda create -n ds_env python=3.8
-conda activate ds_env
+conda create -n myenv python=3.8
+conda activate myenv
 pip install -r requirements.txt
 ```
+See the <a href="EnvSetupGuide.pdf" target="_blank">setup-guide</a> for further explenation.
 
 ### 🌐 Step 2: Run the Scraper.ipynb
-This will scrape job listings from Naukri.com.
+Open "Scraper.ipynb" file using either Method A or Method B.
 
-#### Option A: Using VSCode (recommended)
+#### 🔸 Method A: Using VSCode (recommended)
 
-See the [setup-guide](EnvSetupGuide.pdf) to activate enviroment in VSCode.
+- Install [VSCode](https://code.visualstudio.com/download) and run VSCode.
+- Open the project folder, through File>Open Folder
+- Select "Scraper.ipynb" file via Explore (The first icone on the top left corner, paper sign).
+- Select the environment. See the <a href="EnvSetupGuide.pdf" target="_blank">setup-guide</a> to activate the environment in VSCode.
+- Run the script.
 
-#### Option B: Using Jupyter Notebook Web Interface
+#### 🔹 Method B: Using the Jupyter Notebook Web Interface
 
+- Run this command on the terminal.
 ```bash
 # Run from terminal or Jupyter
 jupyter notebook scraper.ipynb
 ```
-See the [setup-guide](EnvSetupGuide.pdf) to activate enviroment in Jupyter.
+- Open the project folder, through File>Open Folder
+- Select "Scraper.ipynb".
+- Select the environment. See the <a href="EnvSetupGuide.pdf" target="_blank">setup-guide</a> to activate enviroment in Jupyter.
+- Run the script.
 
-
-This will scrape job listings from Naukri.com.
-
-✅ Output: data_scientist_jobs.csv will be created with raw job listings.
+This code scrape job listings from Naukri.com. And output "data_scientist_jobs.csv" will be created with raw job listings.
 
 ### 🧹 Step 3: Clean the Data
 Open and run the Job_market_analysis.ipynb notebook. This step involves:
