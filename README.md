@@ -44,22 +44,23 @@ Open `Scraper.ipynb` file using either Method A or Method B.
 
 ####   🔸 Method A: Using VSCode (recommended)
 
-◦ Install [VSCode](https://code.visualstudio.com/download) and open it.
-◦ Use File > Open Folder to open the project folder.
-◦ In the Explorer (🗎 icon on the top left), open `Scraper.ipynb`.
-◦ Select the correct virtual environment. See the <a href="EnvSetupGuide.pdf" target="_blank">setup-guide</a> to activate the environment in VSCode.
-◦ Run the script.
+  I- Install [VSCode](https://code.visualstudio.com/download) and open it.
+  II- Use File > Open Folder to open the project folder.
+  III- In the Explorer (🗎 icon on the top left), open `Scraper.ipynb`.
+  IV- Select the correct virtual environment. See the <a href="EnvSetupGuide.pdf" target="_blank">setup-guide</a> to activate the environment in VSCode.
+  V- Run the script.
 
 ####   🔹 Method B: Using the Jupyter Notebook Web Interface
 
-◦ Launch the notebook using this command:
+  1- Launch the notebook using this command:
+
 ```bash
 # Run from terminal
 jupyter notebook scraper.ipynb
 ```
-◦ Open the file `Scraper.ipynb` through the browser.
-◦ Select the correct environment kernel. See the <a href="EnvSetupGuide.pdf" target="_blank">setup-guide</a> to activate enviroment in Jupyter.
-◦ Run the script.
+  2- Open the file `Scraper.ipynb` through the browser.
+  3- Select the correct environment kernel. See the <a href="EnvSetupGuide.pdf" target="_blank">setup-guide</a> to activate enviroment in Jupyter.
+  4- Run the script.
 
 This code scrape job listings from Naukri.com. And output `data_scientist_jobs.csv` will be created with raw job listings.
 
